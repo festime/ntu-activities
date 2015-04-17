@@ -12,7 +12,7 @@ class ActivitiesController < ApplicationController
       redirect_to new_activity_path
 
     else
-      flash[:danger] = "欄位資料有誤，請確認"
+      flash.now[:danger] = "欄位資料有誤，請確認"
       render :new
     end
   end
