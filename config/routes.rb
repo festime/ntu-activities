@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root 'activities#new'
-  resources :activities, only: [:new, :create, :index]
+  resources :activities, except: [:show]
+
+  get 'sign_in', to: "sessions#new"
+  post 'sign_in', to: "sessions#create"
+  delete 'sign_out', to: "sessions#destroy"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
