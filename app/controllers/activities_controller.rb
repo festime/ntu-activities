@@ -5,7 +5,7 @@ class ActivitiesController < ApplicationController
 
   def create
     @activity = Activity.new activity_params
-    @activity.date = "#{params[:date][:year]} #{params[:date][:month]} #{params[:date][:day]}"
+    @activity.date = Date.strptime("#{params[:date][:year]}-#{params[:date][:month]}-#{params[:date][:day]}", "%Y-%m-%d")
 
     if @activity.save
       flash[:success] = "輸入成功！"
