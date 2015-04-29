@@ -1,28 +1,22 @@
-== README
+NTU_ACTIVITIES
+========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Ntu_Activities](https://ntu-activities.herokuapp.com)
 
-Things you may want to cover:
+A very simple website to collect information of activities of NTU and list the activities to let [NTU_APP](https://github.com/npes87184/NTU_APP) grab data.
 
-* Ruby version
+Pictures
+========
 
-* System dependencies
+<img src="https://www.dropbox.com/s/647z88wbeqnwuj7/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202015-04-29%20%E4%B8%8B%E5%8D%885.58.42.png?dl=0">
 
-* Configuration
+<img src="http://truth.bahamut.com.tw/s01/201504/ccdf2fd672c686908b874cd0ae0f54b3.PNG">
 
-* Database creation
+# Ruby version
 
-* Database initialization
+2.1.5
 
-* How to run the test suite
+# Rails version
 
-* Services (job queues, cache servers, search engines, etc.)
+4.2.0
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
